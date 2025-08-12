@@ -1,0 +1,30 @@
+### Python ###
+# Виртуальное окружение
+venv/
+
+# Конфиденциальные файлы
+config.py
+.env
+*.env
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+### Node.js ###
+node_modules/
+package-lock.json
+
+### Тестовые отчеты ###
+playwright-report/
+test-results/
+
+### IDE ###
+.vscode/
+.idea/
+
+### Системные файлы ###
+.DS_Store
+Thumbs.db
